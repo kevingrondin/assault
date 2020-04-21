@@ -14,17 +14,17 @@ apt install gcc
 
 cd usr/src/
 
-wget https://python.org/ftp/python/3.7.3/Python-3.7.3.tar.xz
+wget https://python.org/ftp/python/3.8.2/Python-3.8.2.tar.xz
 
-tar xf Python-3.7.3.tar.xz
+tar xf Python-3.8.2.tar.xz
 
-cd Python-3.7.3
+cd Python-3.8.2
 
 ./configure --enable-optimizations --with-ensurepip=install
 
 make altinstall
 
-sudo pip3.7 install --upgrade pip
+sudo pip3.8 install --upgrade pip
 ```
 
 ## A little part of SSH
