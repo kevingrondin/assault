@@ -11,6 +11,7 @@
 sudo -i
 
 apt install gcc
+apt install make
 
 cd usr/src/
 
