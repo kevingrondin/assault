@@ -10,8 +10,10 @@
 ```Shell
 sudo -i
 
+apt install yum
 apt install gcc
 apt install make
+yum install zlib-devel
 
 cd usr/src/
 
