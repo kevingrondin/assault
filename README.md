@@ -5,14 +5,16 @@
 - Exemple to extrat on results.json : assault -c 10 -r 100 --json-file results.json https://google.com
 - Exemple to print with variable environement at true : DEBUG=true assault -c 10 -r 100 https://google.com
 
-## Install Python
+## Install Python And Jupiter Notebook
 
 ```Shell
 apt update
 
 apt install python3-pip
 
-pip3 --version
+pip3 install --upgrade pip
+
+pip3 install jupyter
 ```
 
 ## A little part of SSH
