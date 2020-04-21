@@ -8,23 +8,11 @@
 ## Install Python
 
 ```Shell
-sudo -i
+apt update
 
-apt install gcc make libreadline-gplv2-dev libncursesw5-dev libssl-dev libsqlite3-dev tk-dev libgdbm-dev libc6-dev libbz2-dev
+apt install python3-pip
 
-cd usr/src/
-
-wget https://python.org/ftp/python/3.8.2/Python-3.8.2.tar.xz
-
-tar xf Python-3.8.2.tar.xz
-
-cd Python-3.8.2
-
-./configure --enable-optimizations --with-ensurepip=install
-
-make altinstall
-
-sudo pip3.8 install --upgrade pip
+pip3 --version
 ```
 
 ## A little part of SSH
