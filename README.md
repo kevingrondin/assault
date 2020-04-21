@@ -10,6 +10,8 @@
 ```Shell
 sudo -i
 
+apt install gcc
+
 cd usr/src/
 
 wget https://python.org/ftp/python/3.7.3/Python-3.7.3.tar.xz
